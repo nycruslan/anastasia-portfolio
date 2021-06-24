@@ -20,7 +20,7 @@ import Footer from './Footer';
 
 const App = () => {
   return (
-    <Container maxWidth='md'>
+    <Container maxWidth='md' style={{ overflow: 'hidden' }}>
       <Header />
 
       <Route path='/' exact component={Main}></Route>
