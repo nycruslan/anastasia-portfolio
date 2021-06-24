@@ -25,6 +25,9 @@ const useStyles = makeStyles(theme => ({
     [theme.breakpoints.down(600)]: {
       width: '10rem',
     },
+    [theme.breakpoints.down(400)]: {
+      width: '8rem',
+    },
   },
   tabs: {
     width: '100%',

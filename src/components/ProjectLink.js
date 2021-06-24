@@ -21,6 +21,9 @@ const useStyles = makeStyles(theme => ({
     transition: 'all .2s',
     '&:hover': {
       filter: 'brightness(60%)',
+      [theme.breakpoints.down(610)]: {
+        filter: 'none',
+      },
     },
   },
   projectLinkTitle: {
