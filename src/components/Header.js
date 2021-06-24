@@ -18,15 +18,15 @@ const useStyles = makeStyles(theme => ({
     },
   },
   logo: {
-    width: '12rem',
+    width: '10rem',
     '&:hover': {
       backgroundColor: 'transparent',
     },
     [theme.breakpoints.down(600)]: {
-      width: '10rem',
+      width: '8rem',
     },
     [theme.breakpoints.down(400)]: {
-      width: '8rem',
+      width: '7rem',
     },
   },
   tabs: {
@@ -56,8 +56,8 @@ const Header = () => {
 
   return (
     <header className={classes.header}>
-      <Button component={Link} to='/' className={classes.logo}>
-        <img src={logo} alt='logo' />
+      <Button component={Link} to='/'>
+        <img src={logo} alt='logo' className={classes.logo} />
       </Button>
       <Tabs
         className={classes.tabs}
