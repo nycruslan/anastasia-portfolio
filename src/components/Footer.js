@@ -16,7 +16,7 @@ const useStyles = makeStyles(theme => ({
   footerCopy: {
     display: 'flex',
     alignItems: 'flex-end',
-    justifyContent: 'space-between',
+    justifyContent: 'flex-end',
     [theme.breakpoints.down(600)]: {
       flexDirection: 'column',
       alignItems: 'center',
@@ -49,18 +49,6 @@ const Footer = () => {
         </Link>
 
         <div className={classes.footerCopy}>
-          <div className={classes.footerSocial}>
-            <Link href='https://instagram.com/anastasyashulga?utm_medium=copy_link'>
-              <InstagramIcon style={{ fill: '#e4405f' }} fontSize='large' />
-            </Link>
-            <Link href='https://www.facebook.com/profile.php?id=100011331185530'>
-              <FacebookIcon style={{ fill: '#3b5999' }} fontSize='large' />
-            </Link>
-            <Link href='https://www.linkedin.com/in/anastasiia-shulga-9ab66b10b'>
-              <LinkedInIcon style={{ fill: '#0077B5' }} fontSize='large' />
-            </Link>
-          </div>
-
           <Typography color='primary' variant='caption'>
             Copyright © 2021 Anastasiia Shulga. All Rights Reserved
           </Typography>
