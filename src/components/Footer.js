@@ -1,8 +1,5 @@
 import { makeStyles } from '@material-ui/core/styles';
 import { Divider, Typography, Link, useMediaQuery } from '@material-ui/core';
-import InstagramIcon from '@material-ui/icons/Instagram';
-import FacebookIcon from '@material-ui/icons/Facebook';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 import React from 'react';
 
