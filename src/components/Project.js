@@ -23,10 +23,12 @@ export const ProjectImg = ({ image, alt, style }) => {
       <Grid container item justify='center'>
         <LazyLoadImage
           width={1000}
-          height={1000}
+          height={1500}
           src={image}
           alt={alt}
-          style={style || { maxWidth: '100%', height: 'auto' }}
+          style={
+            style || { display: 'block', maxWidth: '100%', height: 'auto' }
+          }
         />
       </Grid>
     </Grid>
