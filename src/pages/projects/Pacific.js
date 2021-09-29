@@ -1,7 +1,7 @@
 import { useMediaQuery } from '@material-ui/core';
 
 import React from 'react';
-import { Project, ProjectImg, ProjectText } from '../../components/Project';
+import { Project, ProjectImg } from '../../components/Project';
 
 import pacificWeb1 from '../../img/pacificWeb/pacific-1.jpg';
 import pacificWeb2 from '../../img/pacificWeb/pacific-2.jpg';
