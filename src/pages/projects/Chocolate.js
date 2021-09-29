@@ -20,17 +20,14 @@ const Chocolate = () => {
     <Project>
       <ProjectImg image={matches ? chocoMobil1 : chocoWeb1} alt='chocolate1' />
       <ProjectText>
-        Quality chocolate packaging builds brand authority, and brand authority
-        transforms into sales. The goal is to create a modern trendy
-        approachable design to speak and communicate with consumers. The muted
-        color schemes are chosen in order do not to overwhelm and irritate the
-        consumer but to grab the attention in a casual relaxing way. It also
-        gives an association with the chocolate flavor filling. There is as much
-        information on the front as the consumer needs; no unnecessary elements
-        and details that would distract from simply liking it. All the elements
-        are arranged in a non-conflicting complimentary way. Inconspicuous
-        triangle custom pattern creates a modern look and makes the design
-        appealing.
+        Quality packaging design builds brand authority which transforms into
+        sales. The goal is to create a modern trendy approachable clean and
+        simple design to speak and communicate with consumers. The muted color
+        schemes are chosen in order do not to overwhelm the consumer but to grab
+        the attention in a casual way. The colors are associated with the
+        chocolate flavor filling. All the elements are arranged in a
+        non-conflicting complimentary way. Inconspicuous triangle custom pattern
+        creates a modern look and makes the design appealing to the customer.
       </ProjectText>
       <ProjectImg image={matches ? chocoMobil2 : chocoWeb2} alt='chocolate2' />
       <ProjectImg image={matches ? chocoMobil3 : chocoWeb3} alt='chocolate3' />

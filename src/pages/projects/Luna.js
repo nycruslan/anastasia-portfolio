@@ -23,13 +23,13 @@ const Radiance = () => {
   return (
     <Project>
       <ProjectImg image={matches ? lunaMobil1 : lunaWeb1} alt='luna1' />
-      <ProjectText>
+      {/* <ProjectText>
         Used tessellation method to create a consistent triangle theme for a
         light show advertisement poster concept. The visual busyness is used
         purposely to attract the consumer to wander and explore this vibrant
         advertisement. It’s also giving an impression of what experience to
         expect from the show.
-      </ProjectText>
+      </ProjectText> */}
       <ProjectImg image={matches ? lunaMobil2 : lunaWeb2} alt='luna2' />
       <ProjectImg image={matches ? lunaMobil3 : lunaWeb3} alt='luna3' />
       <ProjectText>

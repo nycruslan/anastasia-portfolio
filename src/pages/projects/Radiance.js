@@ -31,19 +31,20 @@ const Radiance = () => {
         advertisement. It’s also giving an impression of what experience to
         expect from the show.
       </ProjectText>
+
       <ProjectImg
         image={matches ? radianceMobil2 : radianceWeb2}
         alt='radiance2'
-      />
-      <ProjectImg
-        image={matches ? radianceMobil3 : radianceWeb3}
-        alt='radiance3'
       />
       <ProjectText>
         Even though the design was mainly created to promote Light Show the
         triangle theme is universal and is applicable to many objects as well as
         could be used as an individual Art.
       </ProjectText>
+      <ProjectImg
+        image={matches ? radianceMobil3 : radianceWeb3}
+        alt='radiance3'
+      />
       <ProjectImg
         image={matches ? radianceMobil4 : radianceWeb4}
         alt='radiance4'

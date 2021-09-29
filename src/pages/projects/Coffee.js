@@ -24,26 +24,31 @@ const Coffee = () => {
 
   return (
     <Project>
-      <ProjectImg image={matches ? coffeeMobil1 : coffeeWeb1} alt='coffee1' />
+      <ProjectImg image={matches ? coffeeMobil5 : coffeeWeb5} alt='coffee5' />
+      <ProjectImg image={matches ? coffeeMobil7 : coffeeWeb7} alt='coffee7' />
+      <ProjectText>
+        The minimalistic brand of Coffee Guild is targeting millennial
+        professionals mostly working remotely inviting to spend time at the
+        welcoming atmosphere of the guild. The muted warm colors of the concept
+        are creating a welcoming visual impact on a customer. It speaks about
+        the brand in a non-aggressive yet assertive way.
+      </ProjectText>
+
+      <ProjectImg image={matches ? coffeeMobil3 : coffeeWeb3} alt='coffee3' />
+      <ProjectImg image={matches ? coffeeMobil4 : coffeeWeb4} alt='coffee4' />
       <ProjectImg
         style={{ maxWidth: `${matches ? '80%' : '55%'}`, height: 'auto' }}
         image={matches ? coffeeMobil2 : coffeeWeb2}
         alt='coffee2'
       />
-      <ProjectImg image={matches ? coffeeMobil3 : coffeeWeb3} alt='coffee3' />
       <ProjectText>
-        A modern flat minimalistic logo for a coffee guild created using the
-        Golden Ratio principle bringing pleasing aesthetics through balance and
-        harmony. The brand’s target audience is young professionals working
-        remotely. The color palette is chosen in order to create a warm
-        welcoming atmosphere yet not overwhelming with brightness. It speaks
-        about the brand in a non-aggressive but assertive way.
+        A contemporary flat minimalistic logo is created using the Golden Ratio
+        principle bringing pleasing aesthetics through balance and harmony. .
       </ProjectText>
-      <ProjectImg image={matches ? coffeeMobil4 : coffeeWeb4} alt='coffee4' />
-      <ProjectImg image={matches ? coffeeMobil5 : coffeeWeb5} alt='coffee5' />
-      <ProjectText>Coffee is a tradition, a culture a ritual.</ProjectText>
+
       <ProjectImg image={matches ? coffeeMobil6 : coffeeWeb6} alt='coffee6' />
-      <ProjectImg image={matches ? coffeeMobil7 : coffeeWeb7} alt='coffee7' />
+      <ProjectText>Coffee is a tradition, a culture a ritual.</ProjectText>
+      <ProjectImg image={matches ? coffeeMobil1 : coffeeWeb1} alt='coffee1' />
     </Project>
   );
 };
