@@ -1,7 +1,7 @@
 import { useMediaQuery } from '@material-ui/core';
 
 import React from 'react';
-import { Project, ProjectImg, ProjectText } from '../../components/Project';
+import { Project, ProjectImg } from '../../components/Project';
 
 import lunaWeb1 from '../../img/lunaWeb/luna-1.jpg';
 import lunaWeb2 from '../../img/lunaWeb/luna-2.jpg';
