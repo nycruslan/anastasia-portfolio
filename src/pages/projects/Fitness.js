@@ -38,7 +38,7 @@ const Fitness = () => {
         brand in Motion.
       </ProjectText>
       <ProjectImg
-        style={{ maxWidth: '80%', height: 'auto' }}
+        style={{ maxWidth: `${matches ? '100%' : '80%'}`, height: 'auto' }}
         image={matches ? fitnessMobil2 : fitnessWeb2}
         alt='fitness2'
       />
